@@ -27,8 +27,8 @@ static NSString *kControlHandlersKey;
 @synthesize handler;
 @synthesize controlEvents;
 
-- (id)initWithHandler:(SenderBlock)aHandler forControlEvents:(UIControlEvents)someControlEvents {
-    
+- (id)initWithHandler:(SenderBlock)aHandler forControlEvents:(UIControlEvents)someControlEvents
+{
     self = [super init];
 	if (self) {
 		self.handler = aHandler;
@@ -37,8 +37,8 @@ static NSString *kControlHandlersKey;
 	return self;
 }
 
-- (void)invokeBlock:(id)sender {
-    
+- (void)invokeBlock:(id)sender
+{
     // Execute tha block handler and pass it the id selder
 	self.handler(sender);
 }
@@ -50,8 +50,8 @@ static NSString *kControlHandlersKey;
 
 @implementation UIControl (UIControlBlocks)
 
-- (void)addEventHandler:(SenderBlock)handler forControlEvents:(UIControlEvents)controlEvents {
-    
+- (void)addEventHandler:(SenderBlock)handler forControlEvents:(UIControlEvents)controlEvents
+{
     // Fake an insancevariable by adding an associative reference or get the reference if it's already added
     NSMutableDictionary *events = [self associatedValueForKey:kControlHandlersKey];
     if (!events) {
@@ -77,8 +77,8 @@ static NSString *kControlHandlersKey;
 	[self addTarget:target action:@selector(invokeBlock:) forControlEvents:controlEvents];
 }
 
-- (void)removeEventHandlersForControlEvents:(UIControlEvents)controlEvents {
-	
+- (void)removeEventHandlersForControlEvents:(UIControlEvents)controlEvents
+{
     // Fake an insancevariable by adding an associative reference or get the reference if it's already added
     NSMutableDictionary *events = [self associatedValueForKey:kControlHandlersKey];
 	if (!events) {
@@ -102,8 +102,8 @@ static NSString *kControlHandlersKey;
 	[events removeObjectForKey:key];
 }
 
-- (BOOL)hasEventHandlersForControlEvents:(UIControlEvents)controlEvents {
-    
+- (BOOL)hasEventHandlersForControlEvents:(UIControlEvents)controlEvents
+{
     // Fake an insancevariable by adding an associative reference or get the reference if it's already added
     NSMutableDictionary *events = [self associatedValueForKey:kControlHandlersKey];
 	if (!events) {
