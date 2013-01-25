@@ -10,7 +10,7 @@
 
 @interface NSObject (NSObjectAssociatedValues)
 
-- (void) associateValue:(id)value withKey:(NSString *)aKey;
-- (id) associatedValueForKey:(NSString *)aKey;
+- (void)associateValue:(id)value withKey:(NSString *)key;
+- (id)associatedValueForKey:(NSString *)key;
 
 @end

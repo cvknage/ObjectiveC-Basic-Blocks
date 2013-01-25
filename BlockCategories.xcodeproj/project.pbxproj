@@ -13,9 +13,12 @@
 		8315C96115F22CA800BC6A6E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8315C95F15F22CA800BC6A6E /* InfoPlist.strings */; };
 		8315C96315F22CA800BC6A6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8315C96215F22CA800BC6A6E /* main.m */; };
 		8315C96715F22CA800BC6A6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8315C96615F22CA800BC6A6E /* AppDelegate.m */; };
-		8315C97515F22DB700BC6A6E /* UIControl+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 8315C97415F22DB700BC6A6E /* UIControl+Blocks.m */; };
-		8315C97D15F246BA00BC6A6E /* NSObject+AssociatedValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 8315C97C15F246BA00BC6A6E /* NSObject+AssociatedValues.m */; };
-		83D6E5F815F24D5D00FAD987 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D6E5F715F24D5D00FAD987 /* MainViewController.m */; };
+		838805F016B2FFE9008CF616 /* NSObject+AssociatedValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 838805E916B2FFE9008CF616 /* NSObject+AssociatedValues.m */; };
+		838805F116B2FFE9008CF616 /* UIAlertButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 838805EB16B2FFE9008CF616 /* UIAlertButton.m */; };
+		838805F216B2FFE9008CF616 /* UIAlertView+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 838805ED16B2FFE9008CF616 /* UIAlertView+Blocks.m */; };
+		838805F316B2FFE9008CF616 /* UIControl+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 838805EF16B2FFE9008CF616 /* UIControl+Blocks.m */; };
+		838805F916B30017008CF616 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 838805F716B30017008CF616 /* Default-568h@2x.png */; };
+		83D51A3716B2FE940082E221 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D51A3616B2FE940082E221 /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,13 +32,18 @@
 		8315C96415F22CA800BC6A6E /* BlockCategories-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlockCategories-Prefix.pch"; sourceTree = "<group>"; };
 		8315C96515F22CA800BC6A6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8315C96615F22CA800BC6A6E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8315C97315F22DB700BC6A6E /* UIControl+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+Blocks.h"; sourceTree = "<group>"; };
-		8315C97415F22DB700BC6A6E /* UIControl+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+Blocks.m"; sourceTree = "<group>"; };
-		8315C97615F2308100BC6A6E /* BlockGlobals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockGlobals.h; sourceTree = "<group>"; };
-		8315C97B15F246BA00BC6A6E /* NSObject+AssociatedValues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AssociatedValues.h"; sourceTree = "<group>"; };
-		8315C97C15F246BA00BC6A6E /* NSObject+AssociatedValues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AssociatedValues.m"; sourceTree = "<group>"; };
-		83D6E5F615F24D5D00FAD987 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		83D6E5F715F24D5D00FAD987 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		838805E716B2FFE9008CF616 /* BlockGlobals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockGlobals.h; sourceTree = "<group>"; };
+		838805E816B2FFE9008CF616 /* NSObject+AssociatedValues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AssociatedValues.h"; sourceTree = "<group>"; };
+		838805E916B2FFE9008CF616 /* NSObject+AssociatedValues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AssociatedValues.m"; sourceTree = "<group>"; };
+		838805EA16B2FFE9008CF616 /* UIAlertButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAlertButton.h; sourceTree = "<group>"; };
+		838805EB16B2FFE9008CF616 /* UIAlertButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAlertButton.m; sourceTree = "<group>"; };
+		838805EC16B2FFE9008CF616 /* UIAlertView+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Blocks.h"; sourceTree = "<group>"; };
+		838805ED16B2FFE9008CF616 /* UIAlertView+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Blocks.m"; sourceTree = "<group>"; };
+		838805EE16B2FFE9008CF616 /* UIControl+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+Blocks.h"; sourceTree = "<group>"; };
+		838805EF16B2FFE9008CF616 /* UIControl+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+Blocks.m"; sourceTree = "<group>"; };
+		838805F716B30017008CF616 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		83D51A3516B2FE940082E221 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		83D51A3616B2FE940082E221 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +63,11 @@
 		8315C94715F22CA800BC6A6E = {
 			isa = PBXGroup;
 			children = (
-				8315C95C15F22CA800BC6A6E /* BlockCategories */,
+				8315C96515F22CA800BC6A6E /* AppDelegate.h */,
+				8315C96615F22CA800BC6A6E /* AppDelegate.m */,
+				83D51A3416B2FE940082E221 /* Classes */,
+				838805F416B30017008CF616 /* Resources */,
+				8315C95D15F22CA800BC6A6E /* Supporting Files */,
 				8315C95515F22CA800BC6A6E /* Frameworks */,
 				8315C95315F22CA800BC6A6E /* Products */,
 			);
@@ -79,19 +91,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8315C95C15F22CA800BC6A6E /* BlockCategories */ = {
-			isa = PBXGroup;
-			children = (
-				8315C96515F22CA800BC6A6E /* AppDelegate.h */,
-				8315C96615F22CA800BC6A6E /* AppDelegate.m */,
-				83D6E5F615F24D5D00FAD987 /* MainViewController.h */,
-				83D6E5F715F24D5D00FAD987 /* MainViewController.m */,
-				8315C97115F22D0200BC6A6E /* Categories */,
-				8315C95D15F22CA800BC6A6E /* Supporting Files */,
-			);
-			path = BlockCategories;
-			sourceTree = "<group>";
-		};
 		8315C95D15F22CA800BC6A6E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -100,19 +99,65 @@
 				8315C96215F22CA800BC6A6E /* main.m */,
 				8315C96415F22CA800BC6A6E /* BlockCategories-Prefix.pch */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		8315C97115F22D0200BC6A6E /* Categories */ = {
+		838805E616B2FFE9008CF616 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				8315C97615F2308100BC6A6E /* BlockGlobals.h */,
-				8315C97B15F246BA00BC6A6E /* NSObject+AssociatedValues.h */,
-				8315C97C15F246BA00BC6A6E /* NSObject+AssociatedValues.m */,
-				8315C97315F22DB700BC6A6E /* UIControl+Blocks.h */,
-				8315C97415F22DB700BC6A6E /* UIControl+Blocks.m */,
+				838805E716B2FFE9008CF616 /* BlockGlobals.h */,
+				838805E816B2FFE9008CF616 /* NSObject+AssociatedValues.h */,
+				838805E916B2FFE9008CF616 /* NSObject+AssociatedValues.m */,
+				838805EA16B2FFE9008CF616 /* UIAlertButton.h */,
+				838805EB16B2FFE9008CF616 /* UIAlertButton.m */,
+				838805EC16B2FFE9008CF616 /* UIAlertView+Blocks.h */,
+				838805ED16B2FFE9008CF616 /* UIAlertView+Blocks.m */,
+				838805EE16B2FFE9008CF616 /* UIControl+Blocks.h */,
+				838805EF16B2FFE9008CF616 /* UIControl+Blocks.m */,
 			);
 			path = Categories;
+			sourceTree = "<group>";
+		};
+		838805F416B30017008CF616 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				838805F516B30017008CF616 /* AppImages */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		838805F516B30017008CF616 /* AppImages */ = {
+			isa = PBXGroup;
+			children = (
+				838805F616B30017008CF616 /* Defaults */,
+				838805F816B30017008CF616 /* Icons */,
+			);
+			path = AppImages;
+			sourceTree = "<group>";
+		};
+		838805F616B30017008CF616 /* Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				838805F716B30017008CF616 /* Default-568h@2x.png */,
+			);
+			path = Defaults;
+			sourceTree = "<group>";
+		};
+		838805F816B30017008CF616 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		83D51A3416B2FE940082E221 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				838805E616B2FFE9008CF616 /* Categories */,
+				83D51A3516B2FE940082E221 /* MainViewController.h */,
+				83D51A3616B2FE940082E221 /* MainViewController.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8315C96115F22CA800BC6A6E /* InfoPlist.strings in Resources */,
+				838805F916B30017008CF616 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,9 +225,11 @@
 			files = (
 				8315C96315F22CA800BC6A6E /* main.m in Sources */,
 				8315C96715F22CA800BC6A6E /* AppDelegate.m in Sources */,
-				8315C97515F22DB700BC6A6E /* UIControl+Blocks.m in Sources */,
-				8315C97D15F246BA00BC6A6E /* NSObject+AssociatedValues.m in Sources */,
-				83D6E5F815F24D5D00FAD987 /* MainViewController.m in Sources */,
+				83D51A3716B2FE940082E221 /* MainViewController.m in Sources */,
+				838805F016B2FFE9008CF616 /* NSObject+AssociatedValues.m in Sources */,
+				838805F116B2FFE9008CF616 /* UIAlertButton.m in Sources */,
+				838805F216B2FFE9008CF616 /* UIAlertView+Blocks.m in Sources */,
+				838805F316B2FFE9008CF616 /* UIControl+Blocks.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,8 +300,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BlockCategories/BlockCategories-Prefix.pch";
-				INFOPLIST_FILE = "BlockCategories/BlockCategories-Info.plist";
+				GCC_PREFIX_HEADER = "Supporting Files/BlockCategories-Prefix.pch";
+				INFOPLIST_FILE = "Supporting Files/BlockCategories-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -263,8 +311,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BlockCategories/BlockCategories-Prefix.pch";
-				INFOPLIST_FILE = "BlockCategories/BlockCategories-Info.plist";
+				GCC_PREFIX_HEADER = "Supporting Files/BlockCategories-Prefix.pch";
+				INFOPLIST_FILE = "Supporting Files/BlockCategories-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

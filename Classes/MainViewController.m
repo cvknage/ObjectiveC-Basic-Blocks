@@ -8,6 +8,9 @@
 
 #import "MainViewController.h"
 
+#import "UIControl+Blocks.h"
+#import "UIAlertView+Blocks.h"
+
 @interface MainViewController ()
 
 @end
@@ -39,6 +42,29 @@
     [testControl addEventHandler:^(id sender) {
         NSLog(@"up");
         [sender removeEventHandlersForControlEvents:UIControlEventTouchDown];
+        
+        UIAlertButton *cancleButton = [UIAlertButton buttonWithTitle:@"OK" action:^{
+            NSLog(@"cancle button clicked");
+        }];
+        
+        UIAlertButton *doSomethingButton = [UIAlertButton button];
+        doSomethingButton.title = @"Do Something";
+        doSomethingButton.action = ^{
+            
+            [UIView animateWithDuration:1.0 animations:^{
+                testControl.backgroundColor = [UIColor redColor];
+            } completion:^(BOOL finished) {
+                [UIView animateWithDuration:1.0 animations:^{
+                    testControl.backgroundColor = [UIColor purpleColor];
+                }];
+            }];
+            
+            testControl.backgroundColor = [UIColor redColor];
+        };
+        
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Test" message:@"This is a test Alert" cancleButton:cancleButton otherButtons:doSomethingButton, nil];
+        [alert show];
+        
     } forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:testControl];  
 }

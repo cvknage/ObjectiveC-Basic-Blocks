@@ -11,16 +11,16 @@
 
 @implementation NSObject (NSObjectAssociatedValues)
 
-- (void)associateValue:(id)value withKey:(NSString *)aKey
+- (void)associateValue:(id)value withKey:(NSString *)key
 {
     // Fake an ivar on self by adding an associative reference
-    objc_setAssociatedObject(self, (__bridge void *)aKey, value, OBJC_ASSOCIATION_RETAIN);
+    objc_setAssociatedObject(self, (__bridge void *)key, value, OBJC_ASSOCIATION_RETAIN);
 }
 
-- (id)associatedValueForKey:(NSString *)aKey
+- (id)associatedValueForKey:(NSString *)key
 {
     // Retrive the faked ivar on self by retriving the associated reference
-    return objc_getAssociatedObject(self, (__bridge void *)aKey);
+    return objc_getAssociatedObject(self, (__bridge void *)key);
 }
 
 @end
