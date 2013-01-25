@@ -13,6 +13,9 @@
 		8315C96115F22CA800BC6A6E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8315C95F15F22CA800BC6A6E /* InfoPlist.strings */; };
 		8315C96315F22CA800BC6A6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8315C96215F22CA800BC6A6E /* main.m */; };
 		8315C96715F22CA800BC6A6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8315C96615F22CA800BC6A6E /* AppDelegate.m */; };
+		8315C97515F22DB700BC6A6E /* UIControl+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 8315C97415F22DB700BC6A6E /* UIControl+Blocks.m */; };
+		8315C97D15F246BA00BC6A6E /* NSObject+AssociatedValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 8315C97C15F246BA00BC6A6E /* NSObject+AssociatedValues.m */; };
+		83D6E5F815F24D5D00FAD987 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D6E5F715F24D5D00FAD987 /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,13 @@
 		8315C96415F22CA800BC6A6E /* BlockCategories-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlockCategories-Prefix.pch"; sourceTree = "<group>"; };
 		8315C96515F22CA800BC6A6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8315C96615F22CA800BC6A6E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8315C97315F22DB700BC6A6E /* UIControl+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+Blocks.h"; sourceTree = "<group>"; };
+		8315C97415F22DB700BC6A6E /* UIControl+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+Blocks.m"; sourceTree = "<group>"; };
+		8315C97615F2308100BC6A6E /* BlockGlobals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockGlobals.h; sourceTree = "<group>"; };
+		8315C97B15F246BA00BC6A6E /* NSObject+AssociatedValues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AssociatedValues.h"; sourceTree = "<group>"; };
+		8315C97C15F246BA00BC6A6E /* NSObject+AssociatedValues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AssociatedValues.m"; sourceTree = "<group>"; };
+		83D6E5F615F24D5D00FAD987 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		83D6E5F715F24D5D00FAD987 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +84,9 @@
 			children = (
 				8315C96515F22CA800BC6A6E /* AppDelegate.h */,
 				8315C96615F22CA800BC6A6E /* AppDelegate.m */,
+				83D6E5F615F24D5D00FAD987 /* MainViewController.h */,
+				83D6E5F715F24D5D00FAD987 /* MainViewController.m */,
+				8315C97115F22D0200BC6A6E /* Categories */,
 				8315C95D15F22CA800BC6A6E /* Supporting Files */,
 			);
 			path = BlockCategories;
@@ -88,6 +101,18 @@
 				8315C96415F22CA800BC6A6E /* BlockCategories-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8315C97115F22D0200BC6A6E /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				8315C97615F2308100BC6A6E /* BlockGlobals.h */,
+				8315C97B15F246BA00BC6A6E /* NSObject+AssociatedValues.h */,
+				8315C97C15F246BA00BC6A6E /* NSObject+AssociatedValues.m */,
+				8315C97315F22DB700BC6A6E /* UIControl+Blocks.h */,
+				8315C97415F22DB700BC6A6E /* UIControl+Blocks.m */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +179,9 @@
 			files = (
 				8315C96315F22CA800BC6A6E /* main.m in Sources */,
 				8315C96715F22CA800BC6A6E /* AppDelegate.m in Sources */,
+				8315C97515F22DB700BC6A6E /* UIControl+Blocks.m in Sources */,
+				8315C97D15F246BA00BC6A6E /* NSObject+AssociatedValues.m in Sources */,
+				83D6E5F815F24D5D00FAD987 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +289,7 @@
 				8315C96C15F22CA800BC6A6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
