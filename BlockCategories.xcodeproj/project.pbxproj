@@ -32,7 +32,6 @@
 		8315C96415F22CA800BC6A6E /* BlockCategories-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlockCategories-Prefix.pch"; sourceTree = "<group>"; };
 		8315C96515F22CA800BC6A6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8315C96615F22CA800BC6A6E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		838805E716B2FFE9008CF616 /* BlockGlobals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockGlobals.h; sourceTree = "<group>"; };
 		838805E816B2FFE9008CF616 /* NSObject+AssociatedValues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AssociatedValues.h"; sourceTree = "<group>"; };
 		838805E916B2FFE9008CF616 /* NSObject+AssociatedValues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AssociatedValues.m"; sourceTree = "<group>"; };
 		838805EA16B2FFE9008CF616 /* UIAlertButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAlertButton.h; sourceTree = "<group>"; };
@@ -105,7 +104,6 @@
 		838805E616B2FFE9008CF616 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				838805E716B2FFE9008CF616 /* BlockGlobals.h */,
 				838805E816B2FFE9008CF616 /* NSObject+AssociatedValues.h */,
 				838805E916B2FFE9008CF616 /* NSObject+AssociatedValues.m */,
 				838805EA16B2FFE9008CF616 /* UIAlertButton.h */,

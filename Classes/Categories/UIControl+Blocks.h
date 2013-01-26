@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-#import "BlockGlobals.h"
+/** Declare a block type tor target actions */
+typedef void (^SenderBlock)(id sender);
 
 @interface UIControl (UIControlBlocks)
 

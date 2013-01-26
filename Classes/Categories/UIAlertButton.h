@@ -8,7 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-#import "BlockGlobals.h"
+/** Declare a block type for a generic block */
+typedef void (^Block)();
 
 @interface UIAlertButton : NSObject
 
