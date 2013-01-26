@@ -15,7 +15,20 @@
 @property (strong, nonatomic) NSString *title;
 @property (copy, nonatomic) void(^action)();
 
-+ (id)button;
+/**
+ * Static initializer.
+ *
+ * @return Returns an instance of UIAlertButton.
+ */
++ (UIAlertButton *)button;
+
+/**
+ * Static initializer with title and action.
+ *
+ * @param title:    The title of the button.
+ * @param action:   The block to execute when the button is clicked.
+ * @return Returns an instance of UIAlertButton initialized with the title and action.
+ */
 + (UIAlertButton *)buttonWithTitle:(NSString *)title action:(Block)action;
 
 @end

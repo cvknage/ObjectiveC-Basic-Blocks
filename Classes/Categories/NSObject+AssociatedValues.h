@@ -10,7 +10,14 @@
 
 @interface NSObject (NSObjectAssociatedValues)
 
+/**
+ * Associate a value with a key in the Objective-C runtime.
+ */
 - (void)associateValue:(id)value withKey:(NSString *)key;
+
+/**
+ * Retrive a value associated with a key in the Objective-C runtime.
+ */
 - (id)associatedValueForKey:(NSString *)key;
 
 @end
