@@ -22,14 +22,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8315C95215F22CA800BC6A6E /* BlockCategories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockCategories.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8315C95215F22CA800BC6A6E /* Objective-C Basic Blocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Objective-C Basic Blocks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8315C95615F22CA800BC6A6E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8315C95815F22CA800BC6A6E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8315C95A15F22CA800BC6A6E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		8315C95E15F22CA800BC6A6E /* BlockCategories-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlockCategories-Info.plist"; sourceTree = "<group>"; };
+		8315C95E15F22CA800BC6A6E /* Objective-C Basic Blocks-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Objective-C Basic Blocks-Info.plist"; sourceTree = "<group>"; };
 		8315C96015F22CA800BC6A6E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8315C96215F22CA800BC6A6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8315C96415F22CA800BC6A6E /* BlockCategories-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlockCategories-Prefix.pch"; sourceTree = "<group>"; };
+		8315C96415F22CA800BC6A6E /* Objective-C Basic Blocks-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Objective-C Basic Blocks-Prefix.pch"; sourceTree = "<group>"; };
 		838805F716B30017008CF616 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		838CB2B716B403D9009E6700 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		838CB2B816B403D9009E6700 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 		8315C95315F22CA800BC6A6E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8315C95215F22CA800BC6A6E /* BlockCategories.app */,
+				8315C95215F22CA800BC6A6E /* Objective-C Basic Blocks.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -92,10 +92,10 @@
 		8315C95D15F22CA800BC6A6E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8315C95E15F22CA800BC6A6E /* BlockCategories-Info.plist */,
+				8315C95E15F22CA800BC6A6E /* Objective-C Basic Blocks-Info.plist */,
 				8315C95F15F22CA800BC6A6E /* InfoPlist.strings */,
 				8315C96215F22CA800BC6A6E /* main.m */,
-				8315C96415F22CA800BC6A6E /* BlockCategories-Prefix.pch */,
+				8315C96415F22CA800BC6A6E /* Objective-C Basic Blocks-Prefix.pch */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -193,9 +193,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8315C95115F22CA800BC6A6E /* BlockCategories */ = {
+		8315C95115F22CA800BC6A6E /* Objective-C Basic Blocks */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8315C96A15F22CA800BC6A6E /* Build configuration list for PBXNativeTarget "BlockCategories" */;
+			buildConfigurationList = 8315C96A15F22CA800BC6A6E /* Build configuration list for PBXNativeTarget "Objective-C Basic Blocks" */;
 			buildPhases = (
 				8315C94E15F22CA800BC6A6E /* Sources */,
 				8315C94F15F22CA800BC6A6E /* Frameworks */,
@@ -205,9 +205,9 @@
 			);
 			dependencies = (
 			);
-			name = BlockCategories;
+			name = "Objective-C Basic Blocks";
 			productName = BlockCategories;
-			productReference = 8315C95215F22CA800BC6A6E /* BlockCategories.app */;
+			productReference = 8315C95215F22CA800BC6A6E /* Objective-C Basic Blocks.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -219,7 +219,7 @@
 				LastUpgradeCheck = 0440;
 				ORGANIZATIONNAME = "Christophe Knage";
 			};
-			buildConfigurationList = 8315C94C15F22CA800BC6A6E /* Build configuration list for PBXProject "BlockCategories" */;
+			buildConfigurationList = 8315C94C15F22CA800BC6A6E /* Build configuration list for PBXProject "Objective-C Basic Blocks" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -231,7 +231,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8315C95115F22CA800BC6A6E /* BlockCategories */,
+				8315C95115F22CA800BC6A6E /* Objective-C Basic Blocks */,
 			);
 		};
 /* End PBXProject section */
@@ -330,9 +330,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Supporting Files/BlockCategories-Prefix.pch";
-				INFOPLIST_FILE = "Supporting Files/BlockCategories-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Supporting Files/Objective-C Basic Blocks-Prefix.pch";
+				INFOPLIST_FILE = "Supporting Files/Objective-C Basic Blocks-Info.plist";
+				PRODUCT_NAME = "Objective-C Basic Blocks";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -341,9 +341,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Supporting Files/BlockCategories-Prefix.pch";
-				INFOPLIST_FILE = "Supporting Files/BlockCategories-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Supporting Files/Objective-C Basic Blocks-Prefix.pch";
+				INFOPLIST_FILE = "Supporting Files/Objective-C Basic Blocks-Info.plist";
+				PRODUCT_NAME = "Objective-C Basic Blocks";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -351,7 +351,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8315C94C15F22CA800BC6A6E /* Build configuration list for PBXProject "BlockCategories" */ = {
+		8315C94C15F22CA800BC6A6E /* Build configuration list for PBXProject "Objective-C Basic Blocks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8315C96815F22CA800BC6A6E /* Debug */,
@@ -360,7 +360,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8315C96A15F22CA800BC6A6E /* Build configuration list for PBXNativeTarget "BlockCategories" */ = {
+		8315C96A15F22CA800BC6A6E /* Build configuration list for PBXNativeTarget "Objective-C Basic Blocks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8315C96B15F22CA800BC6A6E /* Debug */,
