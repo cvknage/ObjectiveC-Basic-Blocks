@@ -19,6 +19,8 @@
 		838CB2C816B40405009E6700 /* UIAlertView+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 838CB2C216B40405009E6700 /* UIAlertView+Blocks.m */; };
 		838CB2C916B40405009E6700 /* UIControl+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 838CB2C516B40405009E6700 /* UIControl+Blocks.m */; };
 		83D51A3716B2FE940082E221 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D51A3616B2FE940082E221 /* MainViewController.m */; };
+		83DE124416B4137A00154C71 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DE124216B4137A00154C71 /* Default.png */; };
+		83DE124516B4137A00154C71 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DE124316B4137A00154C71 /* Default@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,8 @@
 		838CB2C516B40405009E6700 /* UIControl+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+Blocks.m"; sourceTree = "<group>"; };
 		83D51A3516B2FE940082E221 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		83D51A3616B2FE940082E221 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		83DE124216B4137A00154C71 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		83DE124316B4137A00154C71 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +135,8 @@
 			isa = PBXGroup;
 			children = (
 				838805F716B30017008CF616 /* Default-568h@2x.png */,
+				83DE124216B4137A00154C71 /* Default.png */,
+				83DE124316B4137A00154C71 /* Default@2x.png */,
 			);
 			path = Defaults;
 			sourceTree = "<group>";
@@ -243,6 +249,8 @@
 			files = (
 				8315C96115F22CA800BC6A6E /* InfoPlist.strings in Resources */,
 				838805F916B30017008CF616 /* Default-568h@2x.png in Resources */,
+				83DE124416B4137A00154C71 /* Default.png in Resources */,
+				83DE124516B4137A00154C71 /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
