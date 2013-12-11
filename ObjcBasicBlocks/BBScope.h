@@ -29,8 +29,8 @@
  * See #strongify for an example of usage.
  */
 #define weakify(V) \
-try {} @finally {} \
-__weak typeof(V) V ## _weak_ = V
+    try {} @finally {} \
+    __weak typeof(V) V ## _weak_ = V
 
 /**
  * Strongly references the variabel provided as argument, which must
@@ -48,15 +48,15 @@ __weak typeof(V) V ## _weak_ = V
  
  // this block will not keep 'foo' alive
  BOOL (^matchesFooOrBar)(id) = ^ BOOL (id obj){
- // but now, upon entry, 'foo' will stay alive until the block has
- // finished executing
- @strongify(foo);
+    // but now, upon entry, 'foo' will stay alive until the block has
+    // finished executing
+    @strongify(foo);
  
- return [foo isEqual:obj];
+    return [foo isEqual:obj];
  };
  
  * @endcode
  */
 #define strongify(V) \
-try {} @finally {} \
-__strong typeof(V) V = V ## _weak_
+    try {} @finally {} \
+    __strong typeof(V) V = V ## _weak_
