@@ -1,14 +1,16 @@
 //
-// Prefix header for all source files of the 'BlockCategories' target in the 'BlockCategories' project
+// Prefix header for all source files of the 'ObjectiveC Basic Blocks' target in the 'ObjectiveC Basic Blocks' project
 //
 
-#import <Availability.h>
-
-#ifndef __IPHONE_3_0
-#warning "This project uses features only available in iOS SDK 3.0 and later."
-#endif
-
 #ifdef __OBJC__
+    #import <Availability.h>
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+
+    // Import macros for breaking retain cycles when using blocks
+    #import "BBScope.h"
+#endif
+
+#ifndef __IPHONE_3_0
+    #warning "This project uses features only available in iOS SDK 3.0 and later."
 #endif
