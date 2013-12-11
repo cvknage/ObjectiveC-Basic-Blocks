@@ -118,7 +118,7 @@ static NSString *kControlHandlersKey;
         return NO;
     }
 	
-	return handlers.count;
+	return (handlers.count > 0);
 }
 
 @end
