@@ -15,7 +15,7 @@
     return [[self alloc] init];
 }
 
-+ (BBAlertButton *)buttonWithTitle:(NSString *)title action:(Block)action
++ (BBAlertButton *)buttonWithTitle:(NSString *)title action:(dispatch_block_t)action
 {
     NSParameterAssert(title);
     

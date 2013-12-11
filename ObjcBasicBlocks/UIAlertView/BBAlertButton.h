@@ -8,9 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-/** Declare a block type for a generic block */
-typedef void (^Block)();
-
 @interface BBAlertButton : NSObject
 
 @property (strong, nonatomic) NSString *title;
@@ -30,6 +27,6 @@ typedef void (^Block)();
  * @param action   The block to execute when the button is clicked.
  * @return Returns an instance of BBAlertButton initialized with the title and action.
  */
-+ (BBAlertButton *)buttonWithTitle:(NSString *)title action:(Block)action;
++ (BBAlertButton *)buttonWithTitle:(NSString *)title action:(dispatch_block_t)action;
 
 @end
