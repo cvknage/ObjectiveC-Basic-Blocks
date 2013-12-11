@@ -53,11 +53,14 @@ static NSString *kButtonBlocksKey;
     return index;
 }
 
+
+#pragma mark - UIAlertViewDelegate
+
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
 {
     if (buttonIndex >= 0) {
         NSArray *buttonsArray = [self associatedValueForKey:kButtonBlocksKey];
-        BBAlertButton *alertButton = [buttonsArray objectAtIndex:buttonIndex];
+        BBAlertButton *alertButton = [buttonsArray objectAtIndex:(NSUInteger)buttonIndex];
         
         if (alertButton.action) {
             alertButton.action();
