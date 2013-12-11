@@ -44,6 +44,7 @@
 		8380A0F91858BC0B002FDE22 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8380A0FA1858BC0B002FDE22 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		8380A0FB1858BC0B002FDE22 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		8380A0FE1858C1CA002FDE22 /* BBScope.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBScope.h; sourceTree = "<group>"; };
 		838805F716B30017008CF616 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		83DE124216B4137A00154C71 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		83DE124316B4137A00154C71 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
@@ -107,6 +108,7 @@
 		8380A0AC1858BB3C002FDE22 /* ObjcBasicBlocks */ = {
 			isa = PBXGroup;
 			children = (
+				8380A0FE1858C1CA002FDE22 /* BBScope.h */,
 				8380A0AD1858BB3C002FDE22 /* NSObject */,
 				8380A0B01858BB3C002FDE22 /* UIAlertView */,
 				8380A0B51858BB3C002FDE22 /* UIControl */,
