@@ -17,6 +17,8 @@
 
 + (BBAlertButton *)buttonWithTitle:(NSString *)title action:(Block)action
 {
+    NSParameterAssert(title);
+    
     BBAlertButton *button = [[self class] button];
     button.title = title;
     button.action = action;
