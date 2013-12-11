@@ -31,42 +31,47 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
-    UIControl *testControl = [[UIControl alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
-    testControl.center = self.view.center;
-    testControl.backgroundColor = [UIColor purpleColor];
+    // Create and configure instance of UIControl
+    UIControl *squareControl = [[UIControl alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
+    squareControl.center = self.view.center;
+    squareControl.backgroundColor = [UIColor purpleColor];
     
-    [testControl addEventHandler:^(id sender) {
+    // Assign a block to execute on UIControlEventTouchDown
+    [squareControl addEventHandler:^(UIControl *sender) {
         NSLog(@"down");
     } forControlEvents:UIControlEventTouchDown];
     
-    [testControl addEventHandler:^(id sender) {
+    // Assign a block to execute on UIControlEventTouchUpInside
+    [squareControl addEventHandler:^(UIControl *sender) {
         NSLog(@"up");
+        
+        // Remove all blocks that have been assigned to execute on UIControlEventTouchDown
         [sender removeEventHandlersForControlEvents:UIControlEventTouchDown];
         
-        BBAlertButton *cancleButton = [BBAlertButton buttonWithTitle:@"OK" action:^{
-            NSLog(@"cancle button clicked");
+        // Create cancel button with factory method
+        BBAlertButton *cancelButton = [BBAlertButton buttonWithTitle:@"OK" action:^{
+            NSLog(@"cancel button clicked");
         }];
         
+        // Create other button by assigning properties
         BBAlertButton *doSomethingButton = [BBAlertButton button];
         doSomethingButton.title = @"Do Something";
         doSomethingButton.action = ^{
-            
             [UIView animateWithDuration:1.0 animations:^{
-                testControl.backgroundColor = [UIColor redColor];
+                sender.backgroundColor = [UIColor redColor];
             } completion:^(BOOL finished) {
                 [UIView animateWithDuration:1.0 animations:^{
-                    testControl.backgroundColor = [UIColor purpleColor];
+                    sender.backgroundColor = [UIColor purpleColor];
                 }];
             }];
-            
-            testControl.backgroundColor = [UIColor redColor];
         };
         
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Test" message:@"This is a test Alert" cancleButton:cancleButton otherButtons:doSomethingButton, nil];
+        // Initialize and show alert using BBAlertButton's
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Test" message:@"This is a test Alert" cancleButton:cancelButton otherButtons:doSomethingButton, nil];
         [alert show];
-        
     } forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:testControl];  
+    
+    [self.view addSubview:squareControl];  
 }
 
 - (void)viewDidUnload
