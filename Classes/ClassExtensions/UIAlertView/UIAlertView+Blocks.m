@@ -13,24 +13,24 @@ static NSString *kButtonBlocksKey;
 
 @implementation UIAlertView (Blocks)
 
-- (id)initWithTitle:(NSString *)title message:(NSString *)message cancleButton:(UIAlertButton *)cancleButton otherButtons:(UIAlertButton *)otherButton, ...
+- (id)initWithTitle:(NSString *)title message:(NSString *)message cancleButton:(BBAlertButton *)cancleButton otherButtons:(BBAlertButton *)otherButton, ...
 {
     self = [self initWithTitle:title message:message delegate:self cancelButtonTitle:cancleButton.title otherButtonTitles:nil];
     if (self) {
         NSMutableArray *buttonsArray = [NSMutableArray array];
         
-        UIAlertButton *variadicItem;
+        BBAlertButton *variadicItem;
         va_list variadicList;
         if (otherButton) {
             [buttonsArray addObject:otherButton];
             va_start(variadicList, otherButton);
-            while ((variadicItem = va_arg(variadicList, UIAlertButton *))) {
+            while ((variadicItem = va_arg(variadicList, BBAlertButton *))) {
                 [buttonsArray addObject:variadicItem];
             }
             va_end(variadicList);
         }
         
-        for (UIAlertButton *button in buttonsArray) {
+        for (BBAlertButton *button in buttonsArray) {
             [self addButtonWithTitle:button.title];
         }
         
@@ -43,7 +43,7 @@ static NSString *kButtonBlocksKey;
     return self;
 }
 
-- (NSInteger)addButton:(UIAlertButton *)button
+- (NSInteger)addButton:(BBAlertButton *)button
 {
     NSMutableArray *buttonsArray = [self associatedValueForKey:kButtonBlocksKey];
     
@@ -57,7 +57,7 @@ static NSString *kButtonBlocksKey;
 {
     if (buttonIndex >= 0) {
         NSArray *buttonsArray = [self associatedValueForKey:kButtonBlocksKey];
-        UIAlertButton *alertButton = [buttonsArray objectAtIndex:buttonIndex];
+        BBAlertButton *alertButton = [buttonsArray objectAtIndex:buttonIndex];
         
         if (alertButton.action) {
             alertButton.action();

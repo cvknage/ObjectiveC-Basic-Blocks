@@ -43,11 +43,11 @@
         NSLog(@"up");
         [sender removeEventHandlersForControlEvents:UIControlEventTouchDown];
         
-        UIAlertButton *cancleButton = [UIAlertButton buttonWithTitle:@"OK" action:^{
+        BBAlertButton *cancleButton = [BBAlertButton buttonWithTitle:@"OK" action:^{
             NSLog(@"cancle button clicked");
         }];
         
-        UIAlertButton *doSomethingButton = [UIAlertButton button];
+        BBAlertButton *doSomethingButton = [BBAlertButton button];
         doSomethingButton.title = @"Do Something";
         doSomethingButton.action = ^{
             

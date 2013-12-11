@@ -1,5 +1,5 @@
 //
-//  UIAlertButton.h
+//  BBAlertButton.h
 //  BlockCategories
 //
 //  Created by Christophe Knage on 25/01/2013.
@@ -11,7 +11,7 @@
 /** Declare a block type for a generic block */
 typedef void (^Block)();
 
-@interface UIAlertButton : NSObject
+@interface BBAlertButton : NSObject
 
 @property (strong, nonatomic) NSString *title;
 @property (copy, nonatomic) void(^action)();
@@ -19,17 +19,17 @@ typedef void (^Block)();
 /**
  * Static initializer.
  *
- * @return Returns an instance of UIAlertButton.
+ * @return Returns an instance of BBAlertButton.
  */
-+ (UIAlertButton *)button;
++ (BBAlertButton *)button;
 
 /**
  * Static initializer with title and action.
  *
  * @param title:    The title of the button.
  * @param action:   The block to execute when the button is clicked.
- * @return Returns an instance of UIAlertButton initialized with the title and action.
+ * @return Returns an instance of BBAlertButton initialized with the title and action.
  */
-+ (UIAlertButton *)buttonWithTitle:(NSString *)title action:(Block)action;
++ (BBAlertButton *)buttonWithTitle:(NSString *)title action:(Block)action;
 
 @end

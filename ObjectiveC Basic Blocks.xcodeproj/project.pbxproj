@@ -15,7 +15,7 @@
 		838805F916B30017008CF616 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 838805F716B30017008CF616 /* Default-568h@2x.png */; };
 		838CB2B916B403D9009E6700 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 838CB2B816B403D9009E6700 /* AppDelegate.m */; };
 		838CB2C616B40405009E6700 /* NSObject+AssociatedValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 838CB2BD16B40405009E6700 /* NSObject+AssociatedValues.m */; };
-		838CB2C716B40405009E6700 /* UIAlertButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 838CB2C016B40405009E6700 /* UIAlertButton.m */; };
+		838CB2C716B40405009E6700 /* BBAlertButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 838CB2C016B40405009E6700 /* BBAlertButton.m */; };
 		838CB2C816B40405009E6700 /* UIAlertView+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 838CB2C216B40405009E6700 /* UIAlertView+Blocks.m */; };
 		838CB2C916B40405009E6700 /* UIControl+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 838CB2C516B40405009E6700 /* UIControl+Blocks.m */; };
 		83D51A3716B2FE940082E221 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D51A3616B2FE940082E221 /* MainViewController.m */; };
@@ -37,8 +37,8 @@
 		838CB2B816B403D9009E6700 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		838CB2BC16B40405009E6700 /* NSObject+AssociatedValues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AssociatedValues.h"; sourceTree = "<group>"; };
 		838CB2BD16B40405009E6700 /* NSObject+AssociatedValues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AssociatedValues.m"; sourceTree = "<group>"; };
-		838CB2BF16B40405009E6700 /* UIAlertButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAlertButton.h; sourceTree = "<group>"; };
-		838CB2C016B40405009E6700 /* UIAlertButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAlertButton.m; sourceTree = "<group>"; };
+		838CB2BF16B40405009E6700 /* BBAlertButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBAlertButton.h; sourceTree = "<group>"; };
+		838CB2C016B40405009E6700 /* BBAlertButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBAlertButton.m; sourceTree = "<group>"; };
 		838CB2C116B40405009E6700 /* UIAlertView+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Blocks.h"; sourceTree = "<group>"; };
 		838CB2C216B40405009E6700 /* UIAlertView+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Blocks.m"; sourceTree = "<group>"; };
 		838CB2C416B40405009E6700 /* UIControl+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+Blocks.h"; sourceTree = "<group>"; };
@@ -169,8 +169,8 @@
 		838CB2BE16B40405009E6700 /* UIAlertView */ = {
 			isa = PBXGroup;
 			children = (
-				838CB2BF16B40405009E6700 /* UIAlertButton.h */,
-				838CB2C016B40405009E6700 /* UIAlertButton.m */,
+				838CB2BF16B40405009E6700 /* BBAlertButton.h */,
+				838CB2C016B40405009E6700 /* BBAlertButton.m */,
 				838CB2C116B40405009E6700 /* UIAlertView+Blocks.h */,
 				838CB2C216B40405009E6700 /* UIAlertView+Blocks.m */,
 			);
@@ -265,7 +265,7 @@
 				83D51A3716B2FE940082E221 /* MainViewController.m in Sources */,
 				838CB2B916B403D9009E6700 /* AppDelegate.m in Sources */,
 				838CB2C616B40405009E6700 /* NSObject+AssociatedValues.m in Sources */,
-				838CB2C716B40405009E6700 /* UIAlertButton.m in Sources */,
+				838CB2C716B40405009E6700 /* BBAlertButton.m in Sources */,
 				838CB2C816B40405009E6700 /* UIAlertView+Blocks.m in Sources */,
 				838CB2C916B40405009E6700 /* UIControl+Blocks.m in Sources */,
 			);
