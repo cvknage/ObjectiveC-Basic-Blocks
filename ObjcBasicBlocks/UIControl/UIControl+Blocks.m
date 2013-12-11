@@ -15,9 +15,9 @@ static NSString *kControlHandlersKey;
 
 @interface ControlWrapper : NSObject
 
-- (id)initWithHandler:(SenderBlock)aHandler forControlEvents:(UIControlEvents)someControlEvents;
+- (id)initWithHandler:(BBSenderBlock)aHandler forControlEvents:(UIControlEvents)someControlEvents;
 
-@property (nonatomic, copy) SenderBlock handler;
+@property (nonatomic, copy) BBSenderBlock handler;
 @property (nonatomic) UIControlEvents controlEvents;
 
 @end
@@ -27,7 +27,7 @@ static NSString *kControlHandlersKey;
 @synthesize handler;
 @synthesize controlEvents;
 
-- (id)initWithHandler:(SenderBlock)aHandler forControlEvents:(UIControlEvents)someControlEvents
+- (id)initWithHandler:(BBSenderBlock)aHandler forControlEvents:(UIControlEvents)someControlEvents
 {
     self = [super init];
 	if (self) {
@@ -50,7 +50,7 @@ static NSString *kControlHandlersKey;
 
 @implementation UIControl (UIControlBlocks)
 
-- (void)addEventHandler:(SenderBlock)handler forControlEvents:(UIControlEvents)controlEvents
+- (void)addEventHandler:(BBSenderBlock)handler forControlEvents:(UIControlEvents)controlEvents
 {
     // Fake an insancevariable by adding an associative reference or get the reference if it's already added
     NSMutableDictionary *events = [self associatedValueForKey:kControlHandlersKey];

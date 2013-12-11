@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 /** Declare a block type tor target actions */
-typedef void (^SenderBlock)(id sender);
+typedef void (^BBSenderBlock)(id sender);
 
 @interface UIControl (UIControlBlocks)
 
@@ -19,7 +19,7 @@ typedef void (^SenderBlock)(id sender);
  * @param handler          The block to execute on the UIControlEvents.
  * @param controlEvents    The UIControlEvents to listen for.
  */
-- (void)addEventHandler:(SenderBlock)handler forControlEvents:(UIControlEvents)controlEvents;
+- (void)addEventHandler:(BBSenderBlock)handler forControlEvents:(UIControlEvents)controlEvents;
 
 /**
  * Remove all event handlers for a specefic UIControlEvents.
