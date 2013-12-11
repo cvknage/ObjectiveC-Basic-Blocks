@@ -2,7 +2,7 @@ Objective-C Basic Blocks
 ========================
 
 **What is Objective-C Basic Blocks?**  
-Objective-C Basic Blocks is a small source distribution, that aims to facilitate programming with blocks on iOS.
+Objective-C Basic Blocks is a small source distribution, that aims to facilitate programming with blocks on iOS.  
 The goal is to provide basic block support to some system classes.
 
 
