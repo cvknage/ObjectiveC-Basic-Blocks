@@ -1,6 +1,6 @@
 //
 //  BBAlertButton.m
-//  BlockCategories
+//  ObjcBasicBlocks
 //
 //  Created by Christophe Knage on 25/01/2013.
 //  Copyright (c) 2013 Christophe Knage. All rights reserved.

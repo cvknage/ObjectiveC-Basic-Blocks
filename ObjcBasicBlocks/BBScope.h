@@ -1,6 +1,6 @@
 //
 //  BBScope.h
-//  ObjectiveC Basic Blocks
+//  ObjcBasicBlocks
 //
 //  Created by Christophe Knage on 11/12/2013.
 //  Copyright (c) 2013 Christophe Knage. All rights reserved.
