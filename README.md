@@ -8,7 +8,7 @@ The goal is to provide basic block support to some system classes.
 What Objective-C Basic Blocks is not!
 Objective-C Basic Blocks is not a full featured block framework.
 
-If you can't get enough of blocks, I suggest taking a look at a briliant framework called
+If you can't get enough of blocks, I suggest taking a look at a brilliant framework called
 [BlocksKit](http://pandamonia.github.com/BlocksKit)
 
 
