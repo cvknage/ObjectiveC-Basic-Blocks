@@ -16,22 +16,22 @@ typedef void (^SenderBlock)(id sender);
 /**
  * Add an event handler with a block.
  *
- * @param handler:          The block to execute on the UIControlEvents.
- * @param controlEvents:    The UIControlEvents to listen for.
+ * @param handler          The block to execute on the UIControlEvents.
+ * @param controlEvents    The UIControlEvents to listen for.
  */
 - (void)addEventHandler:(SenderBlock)handler forControlEvents:(UIControlEvents)controlEvents;
 
 /**
  * Remove all event handlers for a specefic UIControlEvents.
  *
- * @param controlEvents:    The UIControlEvents to remove handlers for.
+ * @param controlEvents    The UIControlEvents to remove handlers for.
  */
 - (void)removeEventHandlersForControlEvents:(UIControlEvents)controlEvents;
 
 /**
  * Check is a UIControlEvents has any handlers.
  *
- * @param controlEvents:    The UIControlEvents to check handlers for.
+ * @param controlEvents    The UIControlEvents to check handlers for.
  * @return Returns true if there is an event handler for the UIControlEvents, otherwise false.
  */
 - (BOOL)hasEventHandlersForControlEvents:(UIControlEvents)controlEvents;

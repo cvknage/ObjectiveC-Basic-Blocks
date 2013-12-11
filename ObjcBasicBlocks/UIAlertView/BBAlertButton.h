@@ -26,8 +26,8 @@ typedef void (^Block)();
 /**
  * Static initializer with title and action.
  *
- * @param title:    The title of the button.
- * @param action:   The block to execute when the button is clicked.
+ * @param title    The title of the button.
+ * @param action   The block to execute when the button is clicked.
  * @return Returns an instance of BBAlertButton initialized with the title and action.
  */
 + (BBAlertButton *)buttonWithTitle:(NSString *)title action:(Block)action;
